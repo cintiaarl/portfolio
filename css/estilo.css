@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.eu{
+    background-color: #020202;
+    padding-inline: 3.5rem;
+}
+.menu{
+    background-color: #020202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150rem;
+    height: 10vh;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 4rem;
+  }
+
+span{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lobster Two', cursive;
+}
+
+  .lista__menu{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 3.3rem;
+    font-size: 1.6rem;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+  background-color: #020202;  
+  height: 32vh;
+}
+
+
+.home__conteudo{
+    height: 32vh;
+    display: flex;
+    justify-content:space-between;
+}
+
+.home__lista {
+  list-style: none;
+  line-height: 2rem;
+  color: white;
+  padding: 5.5rem;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
+.home__lista h2{
+    font-size: 2.5rem;
+    padding-block: 1rem;
+}
+
+h3{
+    color: white;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+}
+
+.imac__conteudo h2{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Lobster Two', cursive;
+}
+p{
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+
+section{
+    height: 60vh;
+    background-color: #1F1D36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    display: flex;
+    width: 90.1rem;
+    justify-content: space-between;
+}
+
+.imac__conteudo{
+    width: 40rem;
+    margin-block: 3rem;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+}
+
+
+.site{
+    height: 90vh;
+    background-color: #3F3351;
+}
+
+.img__site{
+    display: flex;
+    justify-content: center;
+    gap: 10.5rem;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 5rem;
+}
+
+.post{
+    height: 50vh;
+    background-color: #864879;
+}
+
+.img__post{
+    display: flex;
+    justify-content: center;
+    gap: 8.5rem;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 5rem;
+}
+
+
+
+footer{
+    background-color:#864879;
+    height: 5vh;
+    right: 0;
+    left: 0;
+    padding: 6rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-block: 2.2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
